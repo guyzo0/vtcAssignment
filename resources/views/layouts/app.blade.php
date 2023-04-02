@@ -66,6 +66,7 @@
                                     </form>
                                 </div>
                             </li>
+                            <li class="nav-item dropdown"><a href="{{ route('user.edit', ['id'=>Auth::user()->id])}}">Edit your profil</a></li> 
                         @endguest
                     </ul>
                 </div>

@@ -16,6 +16,8 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+                <div class="form-group">
+                <a href="{{route('post.list')}}" class="btn btn-sm btn-primary">display post list or add new post</a>                </div>
             </div>
         </div>
     </div>
